@@ -1,5 +1,5 @@
 # jakobamster.github.io
-🔥My personal site🔥
+My personal site
 
 This site is based on a template which I heavily modified. 
 
