@@ -3,20 +3,32 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 
+ 
+/* List */
 
-/* Header */
+	ul {
+		&.icons {
+			li {
+				a {
+					-ms-behavior: url('assets/js/PIE.htc');
 
-	#header {
-		nav {
-			a {
-				position: relative;
-				border: solid 1px _palette(fg);
-				border-radius: 100%;
-				-ms-behavior: url('assets/js/ie/PIE.htc');
-
-				&:before {
-					border: 0;
+					&:before {
+						text-align: center;
+						font-size: 26px;
+					}
 				}
+			}
+		}
+	}
+
+/* Main */
+
+	#main {
+		-ms-behavior: url('assets/js/PIE.htc');
+
+		.avatar {
+			img {
+				-ms-behavior: url('assets/js/PIE.htc');
 			}
 		}
 	}
@@ -24,7 +36,11 @@
 /* Footer */
 
 	#footer {
-		background-image: url('images/ie/footer.png');
-		background-position: bottom left;
-		background-repeat: repeat-x;
+		color: #fff;
+
+		.copyright {
+			li {
+				border-left: solid 1px #fff;
+			}
+		}
 	}
