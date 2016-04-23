@@ -26,9 +26,8 @@
   <style>
   body
   {
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    margin: 0;
+    font: normal 16px/1.4 'Open Sans', Helvetica, Arial, sans-serif;
+    margin: 2em;
     color: #fff
   }
   .jumbotron
@@ -61,21 +60,23 @@
     margin-top: .5em;
     line-height: 1.6em;
   }
-@media (max-width: 460px) {
-  h2 {
-    font-size: 2em;
+  @media (max-width: 460px) {
+    h2 {
+      font-size: 1em;
+    }
   }
-}
-@media (max-width: 380px) {
-  h1 {
-    font-size: 2em;
+
+  @media (max-width: 380px) {
+    h1 {
+      font-size: 2em;
+    }
   }
-}
-@media(min-height: 640px) and (min-width: 700px) {
-  body{
-    font-size: 2.5vh;
+
+  @media (min-height: 640px) and (min-width: 700px) {
+    body {
+      font-size: 2.5vh;
+    }
   }
-}
 .items, .items a
 {
   color: #fff;
